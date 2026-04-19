@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+<button class="burger" onclick="toggleMenu()">☰</button>
+<div class="brand">SHARE APP</div>
+</div>
+
+<div id="menu" class="menu hide">
+<button onclick="closeMenu()">Home</button>
+<button onclick="aboutApp()">About</button>
+</div>
+
+<div class="wrap">
+
+<h1>Clean Tool Shell</h1>
+
+<input placeholder="Input 1">
+<input placeholder="Input 2">
+<input placeholder="Input 3">
+
+<button class="mainBtn" onclick="runTask()">START</button>
+
+<div id="status" class="status hide"></div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
